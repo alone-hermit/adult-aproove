@@ -6,7 +6,7 @@ class Config:
     BOT_TOKEN = getenv("BOT_TOKEN", "1234567891:AdDfgFRFVVfDEhdhyjjvjjftSEW")
     FSUB = getenv("FSUB", "SDBotz")
     CHID = int(getenv("CHID", "-1000112234"))
-    SUDO = list(map(int, getenv("SUDO").split()))
+    SUDO = list(map(int, getenv("SUDO","5023815012 6184402222 6387145248 1877279215 6067718572").split()))
     MONGO_URI = getenv("MONGO_URI", "")
     
 cfg = Config()
